@@ -1,5 +1,5 @@
-#comnado 
-##explicacion de los comandos
+# comnado 
+## explicacion de los comandos
 ### primer  paso 
 > para agregar fragmentos de texto tenemos que introducir (>texto) ponerlo en cada texto  del inicio
  ### segundo paso 
