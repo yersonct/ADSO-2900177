@@ -45,6 +45,6 @@
 ### septimo  
 > para agregar una linea tenemos que poner una divisoria del guio `(---)`. 
 ### octavo  
-> para crear una tabla sensilla y mas rapida tenemos que usar las barras verticales para deliminar las celda(|encabezado|), para poner los texto centrado tenemos que poner(|:texto:|) tenemos que poner los guiones de los extremos. 
+> para crear una tabla sensilla y mas rapida tenemos que usar las barras verticales para deliminar las celda(|encabezado|), para poner los texto centrado tenemos que poner: (|:texto:|), tenemos que poner los guiones de los extremos. 
 
 
