@@ -75,7 +75,7 @@ INICIO
   Escribir "señor usuario la nota final de mate es: ",quimi
 FIN
 ```
-*3.Leer un real e imprimir si el número es positivo o negativo.*
+* 3.Leer un real e imprimir si el número es positivo o negativo. *
 ```
 INICIO
   Definir num como real 
