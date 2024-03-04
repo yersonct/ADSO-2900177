@@ -1,6 +1,6 @@
 *1.Tres personas deciden invertir su dinero para fundar una empresa. Cada una de ellas invierte una cantidad distinta. Obtener el porcentaje que cada quien invierte con respecto a la cantidad total invertida.*
 
-``
+```
 INICIO
   Definir dinero1,dinero2,dinero3,resul1,resul2,resul3,resul4 como real 
      dinero1<- 0.0
@@ -20,7 +20,7 @@ INICIO
   Escribiir "señor usuario la cantidad total de dinero es: ",resul1
   Escribir " señores usuario el porcentaje del primer usuario es: ",resul1," del segundo usuario es: ",resul2," y el ultimo tiene un porcentaje de: ",resul3
 FIN
-``
+```
 
 *2. Un alumno desea saber cuál será su promedio general en las tres materias más difíciles que cursa y cuál será el promedio que obtendrá en cada una de ellas. Estas materias se evalúan como se muestra a continuación:*
 
@@ -30,7 +30,7 @@ FIN
 
 *La calificación de Química se obtiene de la siguiente manera: Examen 85% Promedio de tareas 15% En esta materia se pidió un promedio de tres tareas.*
 
-``
+```
 INICIO
   Definir mt1,mt2,mt3,ft1,ft2,ft3,qt1,qt2,qt3 como real 
   Definir mate,fisi,quimi como real
@@ -74,9 +74,9 @@ INICIO
   Escribir "señor usuario la nota final de mate es: ",fisi
   Escribir "señor usuario la nota final de mate es: ",quimi
 FIN
-``
+```
 *3.Leer un real e imprimir si el número es positivo o negativo.*
-``
+```
 INICIO
   Definir num como real 
     num <-0.0
@@ -88,9 +88,9 @@ INICIO
     Escribir "señor usuario tu numero es negativo"
 
 FIN
-``
+```
 * 4.Leer un real e imprimir si el número es mayor a 200 o no.*
-``
+```
 INICIO
   Definri num como real 
     num <- 0.0
@@ -101,9 +101,9 @@ INICIO
   sino 
     Escribir "señor usuario tu numero es menor que 200"
 FIN
-``
+```
 * 5.Leer un real e imprimir si el número está en el rango de 50 y 100. *
-``
+```
 INICIO
   Definir num como real
    num <-0.0
@@ -115,4 +115,4 @@ INICIO
     Escribir "señor usuario tu numero no esta en el rango 
 FIN
 
-``
+```
