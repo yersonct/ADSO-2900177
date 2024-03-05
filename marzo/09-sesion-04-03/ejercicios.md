@@ -121,30 +121,122 @@ finsi
     exa1<-exa1*0.9/mate
     exa2<-exa2*0.8/fisi
     exa3<-exa3*0.85/quimi
-  Escribir "señor usuario ingrese la tres calificaciones de las tareas de mate"
+  Escribir "señor usuario ingrese las tres calificaciones de las tareas de mate"
   leer mt1
   leer mt2
   leer mt3
-  Escribir "señor usuario ingrese la tres calificaciones de las tareas de fisi"
+si mt1< 5.0 and mt1 > 1.0 entonces
+
+  Escribir "fue correcta la calificacion de la primera tarea"
+
+    si mt2< 5.0 and mt2 > 1.0 entonces
+
+      Escribir "fue correcta la calificacion de la segunda tarea"
+
+        si mt3< 5.0 and mt3 > 1.0 entonces
+
+          Escribir "fue correcta la calificacion de la tercera tarea"
+
+        sino
+
+          Escribir "señor usuario tu calificacion no es validad"
+
+        finsi
+
+    sino
+
+      Escribir "señor usuario tu calificacion no es validad"
+
+    finsi
+
+sino
+
+ Escribir "señor usuario tu calificacion no es validad"
+
+finsi
+
+  Escribir "señor usuario ingrese las tres calificaciones de las tareas de fisi"
   leer ft1
   leer ft2
   leer ft3
-  Escribir "señor usuario ingrese la tres calificaciones de las tareas de quimi"
+si ft1< 5.0 and ft1 > 1.0 entonces
+
+  Escribir "fue correcta la calificacion de la primera tarea"
+
+    si ft2< 5.0 and ft2 > 1.0 entonces
+
+      Escribir "fue correcta la calificacion de la segunda tarea"
+
+        si ft3< 5.0 and ft3 > 1.0 entonces
+
+          Escribir "fue correcta la calificacion de la tercera tarea"
+
+        sino
+
+          Escribir "señor usuario tu calificacion no es validad"
+
+        finsi
+
+    sino
+
+      Escribir "señor usuario tu calificacion no es validad"
+
+    finsi
+
+sino
+
+ Escribir "señor usuario tu calificacion no es validad"
+
+finsi
+  Escribir "señor usuario ingrese las tres calificaciones de las tareas de quimi"
   leer qt1
   leer qt2
   leer qt3
+si qt1< 5.0 and qt1 > 1.0 entonces
+
+  Escribir "fue correcta la calificacion de la primera tarea"
+
+    si qt2< 5.0 and qt2 > 1.0 entonces
+
+      Escribir "fue correcta la calificacion de la segunda tarea"
+
+        si qt3< 5.0 and qt3 > 1.0 entonces
+
+          Escribir "fue correcta la calificacion de la tercera tarea"
+
+        sino
+
+          Escribir "señor usuario tu calificacion no es validad"
+
+        finsi
+
+    sino
+
+      Escribir "señor usuario tu calificacion no es validad"
+
+    finsi
+
+sino
+
+ Escribir "señor usuario tu calificacion no es validad"
+
+finsi
      resul1 <- mt1+mt2+mt3/3
      resul2 <- ft1+ft2+ft3/3
      resul3 <- qt1+qt2+qt3/3
+
      resul1<-resul1*0.1/mate
      resul2<-resul2*0.2/fisi
      resul3<-resul3*0.15/quimi
+
      mate <-(resul1+exa1)*mate
-     fisi <-(resul1+exa1)*fisi
-     quimi <-(resul1+exa1)*quimi
-  Escribir "señor usuario la nota final de mate es: ",mate
-  Escribir "señor usuario la nota final de mate es: ",fisi
-  Escribir "señor usuario la nota final de mate es: ",quimi
+     fisi <-(resul1+exa2)*fisi
+     quimi <-(resul1+exa3)*quimi
+
+  Escribir "señor usuario la nota final de matematicas es: ",mate
+  Escribir "señor usuario la nota final de fisica es: ",fisi
+  Escribir "señor usuario la nota final de quimica es: ",quimi
+
 FIN
 ```
 *3.Leer un real e imprimir si el número es positivo o negativo. *
