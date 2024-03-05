@@ -13,11 +13,11 @@ INICIO
        escri <- "señor usuario ingrese el valor de la persona "
        m1 <- "señor usuario tu inversion es correcta"
        m2 <- "señor usuario tu inversion no es valida"
-     Escribir escri + 1 +":"
+     Escribir escri + "1: "
      Leer dinero1
-     Escribir escri + 2 +":"
+     Escribir escri + "2: "
      Leer dinero2
-     Escribir escri + 3 +":"
+     Escribir escri + "3: "
      Leer dinero3
 
      si dinero1< 0 entonces
