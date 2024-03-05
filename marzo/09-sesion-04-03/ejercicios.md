@@ -2,23 +2,60 @@
 
 ```
 INICIO
-  Definir dinero1,dinero2,dinero3,resul1,resul2,resul3,resul4 como real 
-     dinero1<- 0.0
-     dinero2<- 0.0
-     dinero3<- 0.0
-     resul1<- 0.0 
-     resul2<-0.0 
-     resul3<-0.0
-  Escribir "señor usuario ingrese su cantidad de dinero de cada uno"
+  Definir dinero1,dinero2,dinero3,resul1,resul2,resul3,resul4 como real
+  Definir escri,m1,m2 como caracter
+       dinero1<- 0.0
+       dinero2<- 0.0
+       dinero3<- 0.0
+       resul1<- 0.0 
+       resul2<-0.0 
+       resul3<-0.0
+       escri <- "señor usuario ingrese el valor de la persona "
+       m1 <- "señor usuario tu inversion es correcta"
+       m2 <- "señor usuario tu inversion no es valida"
+     Escribir escri + 1 +":"
      Leer dinero1
+     Escribir escri + 2 +":"
      Leer dinero2
+     Escribir escri + 3 +":"
      Leer dinero3
-     resul1<- dinero1+dinero2+dinero3
-     resul2<- dinero1*100/resul1
-     resul3<- dinero2*100/resul1
-     resul4<- dinero3*100/resul1
-  Escribiir "señor usuario la cantidad total de dinero es: ",resul1
-  Escribir " señores usuario el porcentaje del primer usuario es: ",resul1," del segundo usuario es: ",resul2," y el ultimo tiene un porcentaje de: ",resul3
+
+     si dinero1< 0 entonces
+
+       Escribir m1
+
+        si dinero2< 0 entonces
+
+           Escribir m1
+
+            si dinero3< 0 entonces
+
+              Escribir m1
+                  resul1<- dinero1+dinero2+dinero3
+                  resul2<- dinero1*100/resul1
+                  resul3<- dinero2*100/resul1
+                  resul4<- dinero3*100/resul1
+              Escribiir "señor usuario la cantidad total de dinero es: ",resul1
+              Escribir " señores usuario el porcentaje del primer usuario es: ",resul1," del segundo usuario es: ",resul2," y el ultimo tiene un porcentaje de: ",resul3
+
+            sino
+
+              Escribir m2
+
+            finsi
+
+        sino
+
+           Escribir m2
+
+        finsi
+
+     sino
+
+        Escribir m2
+
+     finsi
+
 FIN
 ```
 
@@ -46,6 +83,41 @@ INICIO
   leer exa2    
   Escribir "señor usuario ingrese la calificacion del examen de quimi"
   leer exa3
+si exa1< 5.0 and exa1 > 1.0 entonces
+
+  Escribir "fue correcta la calificacion del examen"
+
+    si exa2< 5.0 and exa2 > 1.0 entonces
+
+      Escribir "fue correcta la calificacion del examen"
+
+        si exa3< 5.0 and exa3 > 1.0 entonces
+
+          Escribir "fue correcta la calificacion del examen"
+
+        sino
+
+          Escribir "señor usuario tu calificacion no es validad"
+
+        finsi
+
+    sino
+
+      Escribir "señor usuario tu calificacion no es validad"
+
+    finsi
+
+sino
+
+ Escribir "señor usuario tu calificacion no es validad"
+
+finsi
+
+
+
+
+
+
     exa1<-exa1*0.9/mate
     exa2<-exa2*0.8/fisi
     exa3<-exa3*0.85/quimi
