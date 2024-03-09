@@ -1,6 +1,6 @@
 ### haga  que los usuarios ingresen 3 valores y que diga cual es: el mayor, el mediano y el menor. De lo contrario si los valores son iguales diga que hay digitos que son identicos.
 
-** solution  **
+* solution  
 ```
 Inicio
  while True:
