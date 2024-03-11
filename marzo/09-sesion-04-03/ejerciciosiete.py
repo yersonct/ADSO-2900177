@@ -1,4 +1,4 @@
-#Ingresar el monton de tres persona que invirtieron para crear una empresa... pero a esta tres personas va a tener una ganascias diferente valor anual 
+#Ingresar el monton de tres persona que invirtieron para crear una empresa... pero a estas tres personas va a tener una ganascias diferente valor anual 
 # la primera persona va a tener una ganancia del 30%
 # la segunda persona va a tener una ganancia del 40%
 # la tercera persona va a tener una ganancia del 30%
